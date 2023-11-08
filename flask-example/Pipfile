@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+dependency-injector = "*"
+bootstrap-flask = "*"
+pygithub = "*"
+pyyaml = "*"
+pytest-flask = "*"
+pytest-cov = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
